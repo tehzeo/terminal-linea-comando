@@ -14,8 +14,8 @@ As the first course of our Academy we learned about commands that you can use on
 
 ## Author and Co.
 > José Roberto Urrutia Loya - Author - @tehzeo.
-
-##Version History
+ 
+## Version History
 > 1.0 - Did it together with other repositories.
 > 2.0 - Changed were dictated by my mentor, now as a single repository hope it clearer now! 
 >   
