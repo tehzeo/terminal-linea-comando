@@ -1,0 +1,92 @@
+# **Lista de comandos en la terminal**
+
+/*Datos*/
+>Area dnde ponemos comandos y los interpreta = shell.
+>Curso se hizo en bash shell = linux.
+>Terminal de windows = powershell
+>Shortcut presionar arriba pone comandos viejos.
+>comandos de ruta relativa: . o .. 
+>. es para guiarte en el directorio root
+>.. es para regresarte una ruta anterior
+> El tabulador sirve para autocompletar archivos
+> print analiza y da informacion de un archivo
+>Algunas cosas se cierran con CTRL + C otras escribiendo Q.
+
+##Comandos:##
+ls 	-> genera una lista de las carpetas en donde nos encontramos.
+cd 	-> change directoy - reicbe el nombre de una carpeta como parametro para accesarla
+clear 	-> limpia la pantalla (shortcut ctrl +l)
+-l 	-> muestra los bytes e informacion larga de lo que pesan los archivos
+-lh 	-> muestra el peso en kbs (modo humano
+pwd 	-> print working directory; muestra la ruta absoluta de un directorio. 
+ls -la 	-> muestra .archivos ocultos
+ls -lS 	-> muestra los archivos mas pesados
+ls -lr 	-> enlista los arcivos en reversa 
+ls tree 	-> muestrta todas las ventanas
+ls -L 2 	-> segun el numero es que tan profundo muestra
+
+mkdir (nombre) 	-> crea directorios
+touch (nombre) 	-> crea archivos
+cp 	-> copy 
+mv 	-> move
+rm 	-> remove
+rm -i 	-> hace interactivo el remove 
+rm -r 	-> remove sirve para borrar todo lo que hay en un directorio (unica manera de borrar un directori) signifcia recursive.
+rm -f 	-> remueve a la fuerza si o si
+head 	-> muestra el encabezado de un archivo
+tail 	-> muestra las ultimas
+-n(numero) 	-> muestra las ultimas X lineas
+less 	-> te permite una interfaz de texto
+xdg	->open nos deja abrir programas
+nautilus 	-> nos deja abrir una carpeta directo desde la terminal.
+
+Un comando puede ser
+	/Un programa ejecutable
+	/Un comando de utilidad de shell
+	/una funcion de shell
+	/un alias
+
+type 	-> muestra que tipo de comando es
+alias 	-> te permite crear alias temporales
+help o --help 	-> te da instrucciones
+man 	-> muestra el manual del comando
+whatis 	-> descripcion corta dle comando
+
+Wildcards
+ls *(wildcard) 	-> muestra todos los archivos
+ls (wildcard)? 	-> muestra los archivos que tengan la palabra + un caracter al final.
+ls {{:upper}}/[[:lower]] 	-> busca mayus o minusculas
+
+Pipe Order
+| - Pipe order 	-> sirve para correr comandos output en el input. 
+| tee 	-> se escribe en un archivo
+
+; 	-> abre un comando en un shell en segundo plano.
+& 	-> por cada comando que se esté ejecutando una linea de comando en segundo plano.
+cal 	-> aparece un calendario
+&& 	-> ejecuta lineas consecutivas "and"
+
+|| - es lo mismo pero "or" que ejecuta lo que si sea posible.
+
+Tipos de archivo
+- 	-> un archivo normal
+d 	-> un directorio
+l 	-> link simbolico
+b 	-> mensaje un bloque especial
+
+Tipos de modo
+
+shortcut > = touch
+ls - s 	-> link simbolicos
+which 	-> te deja buscar la localizacion de archivos y directorios
+find .ruta 	-> busca archivos indicando donde
+type -fd / 	->buscar archivos y directorios
+grep 	->  busca lineas de texto dentro de un archivo
+ifconfig 	-> informacion de la tarjeta de red
+zip 	-> metes todo en un zip
+toCompress 	-> comprime los archivos en un zip
+vi 	-> editor de texto
+vim 	-> editor de texto MODERNO
+:q 	-> salir de vim
+sudo 	-> permisos de root en usuario.
+chsh 	-> cambia el shell 
